@@ -1,0 +1,53 @@
+/* ComicGenerator.css */
+
+.comic-generator {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  .generate-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .generate-button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  .comic-panels {
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
